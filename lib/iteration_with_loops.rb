@@ -9,6 +9,7 @@ def find_min_in_nested_arrays(src)
         largest = src[sanja][zack]
       elsif largest < src[sanja][zack]
         largest = src[sanja][zack]
+      end
       new_array.append(largest)
       zack += 1 
     end
