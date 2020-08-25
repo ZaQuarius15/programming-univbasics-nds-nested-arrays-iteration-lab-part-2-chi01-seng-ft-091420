@@ -3,7 +3,7 @@ def find_min_in_nested_arrays(src)
   sanja = 0 
   while sanja < src.count do
     zack = 0
-    largest = false
+    smallest = false
     while zack < src[sanja].count do
       if largest == false
         largest = src[sanja][zack]
